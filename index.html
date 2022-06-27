@@ -1,60 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="./static/css/styles.css" />
 
-  <title>MyTeacher - Encontre o professor perfeito!</title>
-</head>
-<body>
-  <header>
-    <img class="logo" src="./static/img/logo_myteacher.png" alt="logo myteacher">
-    <span class="slogan">Encontre o professor perfeito!</span>
-  </header>
+    <title>MyTeacher - Encontre o professor perfeito!</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="./static/img/logo_myteacher.png"
+        alt="logo myteacher"
+      />
+      <span class="slogan">Encontre o professor perfeito!</span>
+    </header>
 
-  <main>
-    <div class="row">
-      <section class="teacher">
-        <img class="teacher-img" src="./static/img/foto_professor_1.png" alt="foto professor">
-        <strong class="teacher-name">João da Silva</strong>
-        <span class="teacher-class-value">R$ 100,00 por hora</span>
-        <span class="teacher-description">Professor de inglês, já morou nos Estados Unidos e Inglatera</span>
-        <button class="teacher-contract-button">Marcar aula com João</button>
+    <main>
+      <section class="teacher-container">
+        <div class="teacher">
+          <img
+            class="teacher-img"
+            src="./static/img/foto_professor_1.png"
+            alt="foto professor"
+          />
+          <strong class="teacher-name">João da Silva</strong>
+          <span class="teacher-class-value">R$ 100,00 por hora</span>
+          <span class="teacher-description"
+            >Professor de inglês, já morou nos Estados Unidos e Inglatera</span
+          >
+          <button class="teacher-contract-button">Marcar aula com João</button>
+        </div>
+
+        <div class="teacher">
+          <img
+            class="teacher-img"
+            src="./static/img/foto_professor_2.png"
+            alt="foto professor"
+          />
+          <strong class="teacher-name">Maria da Silva</strong>
+          <span class="teacher-class-value">R$ 90,00 por hora</span>
+          <span class="teacher-description"
+            >Professor de inglês, já morou nos Estados Unidos e Inglatera</span
+          >
+          <button class="teacher-contract-button">Marcar aula com Maria</button>
+        </div>
+
+        <div class="teacher">
+          <img
+            class="teacher-img"
+            src="./static/img/foto_professor_3.png"
+            alt="foto professor"
+          />
+          <strong class="teacher-name">José Monteiro</strong>
+          <span class="teacher-class-value">R$ 100,00 por hora</span>
+          <span class="teacher-description"
+            >Professor de inglês, já morou nos Estados Unidos e Inglatera</span
+          >
+          <button class="teacher-contract-button">Marcar aula com José</button>
+        </div>
+
+        <div class="teacher">
+          <img
+            class="teacher-img"
+            src="./static/img/foto_professor_4.png"
+            alt="foto professor"
+          />
+          <strong class="teacher-name">Juliana Pereira</strong>
+          <span class="teacher-class-value">R$ 90,00 por hora</span>
+          <span class="teacher-description"
+            >Professor de inglês, já morou nos Estados Unidos e Inglatera</span
+          >
+          <button class="teacher-contract-button">Marcar aula com Juliana</button>
+        </div>
       </section>
-
-      <section class="teacher">
-        <img class="teacher-img" src="./static/img/foto_professor_2.png" alt="foto professor">
-        <strong class="teacher-name">Maria da Silva</strong>
-        <span class="teacher-class-value">R$ 90,00 por hora</span>
-        <span class="teacher-description">Professor de inglês, já morou nos Estados Unidos e Inglatera</span>
-        <button class="teacher-contract-button">Marcar aula com Maria</button>
-      </section>
-    </div>
-
-    <div class="row">
-      <section class="teacher">
-        <img class="teacher-img" src="./static/img/foto_professor_3.png" alt="foto professor">
-        <strong class="teacher-name">José Monteiro</strong>
-        <span class="teacher-class-value">R$ 100,00 por hora</span>
-        <span class="teacher-description">Professor de inglês, já morou nos Estados Unidos e Inglatera</span>
-        <button class="teacher-contract-button">Marcar aula com José</button>
-      </section>
-
-      <section class="teacher">
-        <img class="teacher-img" src="./static/img/foto_professor_4.png" alt="foto professor">
-        <strong class="teacher-name">Juliana Pereira</strong>
-        <span class="teacher-class-value">R$ 90,00 por hora</span>
-        <span class="teacher-description">Professor de inglês, já morou nos Estados Unidos e Inglatera</span>
-        <button class="teacher-contract-button">Marcar aula com Juliana</button>
-      </section>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
