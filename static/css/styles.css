@@ -27,15 +27,15 @@ main {
 
 .teacher-container {
     display: grid;
-    grid-template-columns: 25vw 25vw;
-    row-gap: 5rem;
-    column-gap: 5rem;
+    grid-template-columns: 30vw;
     justify-content: center;
+    row-gap: 5rem;
 }
 
 .teacher {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .teacher-img {
@@ -54,7 +54,21 @@ main {
 .teacher-description {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    max-width: 70%;
+}
+
+.teacher-contract {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    /* column-gap: 1rem; */
+    justify-content: space-between;
+}
+
+.teacher-contract-hours {
+    outline: none;
+    background-color: #f5f5f5;
+    border: 1px solid #c4c4c4;
+    text-align: center;
+    color: #565656;
 }
 
 .teacher-contract-button {
@@ -62,31 +76,10 @@ main {
     background-color: #f52273;
     border: none;
     padding: 1rem;
-    max-width: 70%;
     font-weight: 900;
     transition: background-color 0.5s;
 }
 
 .teacher-contract-button:hover {
     background-color: #cd1c60;
-}
-
-@media only screen and (max-width: 1200px) {
-    .teacher-container {
-        grid-template-columns: 40vw 40vw;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .teacher-container {
-        grid-template-columns: 80vw;
-    }
-
-    .teacher-description {
-        max-width: 100%;
-    }
-
-    .teacher-contract-button {
-        max-width: 100%;
-    }
 }
